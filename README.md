@@ -1,4 +1,4 @@
-This project was made for CECS 328 at CSULB. It is written in Python. It utilizes PySpark to read arbitrary numbers from a large .csv file (in this case 2 GB) and sort them by column 1 using a number of partitions determined by the user. For a test run, the user can choose 10 partitions. These partitions are recombined into a singular .csv file which is saved to the user's drive. This process occurs in less than 2 minutes.
+This project was made for CECS 328 at CSULB. It is written in Python. It utilizes PySpark to read arbitrary numbers from a large .csv file (in this case 2 GB) and sort them by column 1 using a number of partitions determined by the user. For a test run, the user can choose 10 partitions. These partitions are recombined into a singular .csv file which is saved to the user's drive. For a file of size 2GB or less, this process occurs in less than 2 minutes.
 
 The sorted .csv file is stored at the same path as the original .csv file.
 
